@@ -1,0 +1,163 @@
+@media only screen and (max-width: 1260px){
+
+
+
+}
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 1160px){
+
+
+
+}
+
+@media only screen and (max-width: 992px){
+
+/* profile page grid */
+
+.user_grid_wraper{
+
+	grid-template-columns: repeat(4,1fr);
+
+}
+
+/* profile page grid */
+
+}
+
+@media only screen and (max-width: 768px){
+
+	/* profile page grid */
+
+	.user_grid_wraper{
+
+		grid-template-columns: repeat(3,1fr);
+
+		grid-gap: 5px;
+
+	}
+
+	/* profile page grid */
+
+/* main header section */
+
+.login-block {
+
+	width: calc(100% / 1);
+
+}
+
+/* main header section */
+
+/* midd section btn */
+
+.right_midd {
+
+	max-width: 350px;
+
+	text-align: center;
+
+	margin: 15px auto;
+
+}
+
+/* midd section btn */
+
+}
+
+@media only screen and (max-width: 600px){
+
+
+
+}
+
+@media only screen and (max-width: 580px){
+
+.hidden_toggle{
+
+	display: block;
+
+}
+
+.inner_nav_wrapper{
+
+	display: none;
+
+}
+
+.inner_nav_wrapper {
+
+	position: absolute;
+
+	left: 0;
+
+	right: 0;
+
+	background-color: white;
+
+	margin: auto;
+
+	text-align: center;
+	z-index: 999;
+
+}
+
+.inner_nav_wrapper > li > a {
+
+	margin: 5px auto;
+
+	border: none;
+
+	padding: 5px;
+
+}
+
+.inner_nav_wrapper > li {
+
+	display: block;
+
+}
+
+/* mobile menu */
+
+
+
+}
+
+@media only screen and (max-width: 480px){
+
+	/* profile page grid */
+
+	.user_grid_wraper{
+
+		grid-template-columns: repeat(2,1fr);
+
+		grid-gap: 5px;
+
+	}
+
+	/* profile page grid */
+
+}
+
+@media only screen and (max-width: 380px){
+
+	/* profile page grid */
+
+	.user_grid_wraper{
+
+		grid-template-columns: repeat(2,1fr);
+
+		grid-gap: 5px;
+
+	}
+
+	/* profile page grid */
+
+}
+

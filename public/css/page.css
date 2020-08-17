@@ -1,0 +1,371 @@
+/* pricing page */
+
+.page_navigation {
+
+	width: 100%;
+
+	box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.5);
+
+}
+
+.inner_navigation {
+
+	max-width: 1200px;
+
+	margin: auto;
+
+	justify-content: space-between;
+
+	display: flex;
+
+	padding: 0 15px;
+
+	align-items: center;
+
+}
+
+.inner_nav {
+
+	display: block;
+
+}
+
+.inner_nav_wrapper, .hidden_toggle {
+
+	display: inline-block;
+
+}
+
+.inner_nav_wrapper > li{
+
+	display: inline-block;
+
+}
+
+.inner_nav_wrapper > li > a{
+
+	padding: 8px 15px;
+
+	margin: 10px auto;
+
+	font-size: 16px;
+
+	font-family: 'open sans',sans-serif;
+
+	color: #8a368c;
+
+	text-transform: uppercase;
+
+	font-weight: 600;
+
+	border: 1px solid transparent;
+
+	transition: 0.3s all ease-in-out; 	
+
+	-webkit-transition: 0.3s all ease-in-out; 	
+
+	-moz-transition: 0.3s all ease-in-out; 	
+
+	-ms-transition: 0.3s all ease-in-out; 	
+
+	-o-transition: 0.3s all ease-in-out; 
+
+	display: inline-block;	
+
+}
+
+.inner_nav_wrapper > li > a:hover{
+
+	border: 1px solid #8a368c;
+
+	text-decoration: none;
+
+}
+
+.inner_nav_wrapper > li > a.active_nav{
+
+	border: 1px solid #8a368c;
+
+}
+
+.logo_inner_wrapper > a {
+
+	display: inline-block;
+
+}
+
+.logo_inner_wrapper > a > img {
+
+	max-width: 150px;
+
+	width: 100%;
+
+}
+
+.hidden_toggle {
+
+	height: 35px;
+
+	line-height: 32px;
+
+	width: 35px;
+
+	text-align: center;
+
+	border: 1px solid #8a368c;
+
+	border-radius: 5px;
+
+	display: inline-block;
+
+	color: #8a368c;
+
+	margin: 10px;
+
+	cursor: pointer;
+
+	display: none;
+
+}
+
+
+
+/* page container start */
+
+.page_title {
+
+	padding: 2rem 0 1rem;
+
+	position: relative;
+
+}
+
+.page_title > h3 {
+
+	font-size: 24px;
+
+	text-transform: uppercase;
+
+	font-weight: 600;
+
+	text-align: center;
+
+	border-bottom: 1px solid #444;
+
+	display: inline-block;
+
+	margin: auto auto 15px;
+
+	letter-spacing: 0.25px;
+
+}
+
+.page_title > p{
+
+	font-size: 14px;
+
+	letter-spacing: 0.25px;
+
+	font-family: 'open sans',sans-serif;
+
+	color: #333;
+
+}
+
+.price_block {
+
+	border: 1px solid #d4d4d4;
+
+	padding: 5px;
+
+	height: 100%;
+
+}
+
+.figure_block {
+
+	height: 90px;
+
+	width: 100%;
+
+	text-align: center;
+
+	background-color: gray;
+
+	display: block;
+
+	padding: 10px 0;
+
+	margin-bottom: 5px;
+
+}
+
+.figure_block > h4 {
+
+	font-size: 24px;
+
+	text-transform: uppercase;
+
+	font-weight: 700;
+
+	margin-bottom: 10px;
+
+	color: white;
+
+}
+
+.figure_block > p {
+
+	margin-bottom: 0;
+
+	color: white;
+
+	font-size: 14px;
+
+	font-weight: 600;
+
+	text-transform: capitalize;
+
+}
+
+.figure_list > ul > li:nth-last-child(1) > a {
+
+	border-bottom: none;
+
+}
+
+.figure_list > ul > li > a {
+
+	text-align: center;
+
+	display: block;
+
+	color: #969696;
+
+	font-size: 13px;
+
+	border-bottom: 1px solid #d2d2d2;
+
+	padding: 8px 15px;
+
+	text-decoration: none;
+
+}
+
+
+
+.price_color_one{
+
+	background-color: #8a368c;
+
+}
+
+.price_color_two{
+
+	background-color: #5c1d5e;
+
+}
+
+.price_color_three{
+
+	background-color: #444444;
+
+}
+
+.pricing_container {
+
+	max-width: 900px;
+
+	margin: auto;
+
+	width: 100%;
+
+	padding: 0 15px;
+
+}
+
+.page_footer_logo {
+
+	text-align: center;
+
+	margin: auto;
+
+}
+
+.page_footer_logo .page_footer_wrapper > a {
+
+	display: inline-block;
+
+}
+
+.page_footer_logo .page_footer_wrapper > a > img {
+
+	max-width: 150px;
+
+	margin: 2rem auto auto;
+
+	width: 100%;
+
+}
+
+.page_footer .footer_wrapp > ul {
+
+	margin: 15px auto 20px;
+
+}
+
+.page_container {
+
+	min-height: 75vh;
+
+}
+
+/* pricing page */
+
+/* login page */
+.linkkle_card {
+	max-width: 400px;
+	margin: auto;
+}
+.linkkle_login_container {
+	background-color: #8a368c;
+	padding: 5rem 0;
+	height: 100vh
+}
+.linkkle_header {
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	font-family: 'open sans',sans-serif;
+	letter-spacing: 0.25px;
+	color: #8a368c;
+	text-transform: capitalize;
+}
+.linkkle_fgroup > div > label {
+	margin-bottom: 5px;
+	color: gray;
+	font-size: 13px;
+	letter-spacing: 0.25px;
+	font-family: 'open sans',sans-serif;
+}
+.linkkle_fgroup > div > .form-check > label {
+	font-family: 'open sans',sans-serif;
+	letter-spacing: 0.25px;
+	color: #8a368c;
+}
+.linkkle_fgroup > div > button[type="submit"] {
+	letter-spacing: 0.25px;
+	color: #fff;
+	border: none; 
+	background-color: #8a368c;
+	font-family: 'open sans',sans-serif;
+}
+.linkkle_fgroup > div > a:hover {
+	color: gray;
+}
+.linkkle_fgroup > div > a {
+	letter-spacing: 0.25px;
+	color: #8a368c;
+	font-family: 'open sans',sans-serif;
+	
+}
